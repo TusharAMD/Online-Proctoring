@@ -20,6 +20,7 @@
   
 
 </head>
+
 <style>
 body{
 display:flex;
@@ -90,10 +91,14 @@ background-color:#FFDF00;
 padding:5px;
 box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
 }
-
+.dashbox{
+background-color:white;
+border-style: dashed;
+padding:10px;
+font-family: 'Marmelad', sans-serif; 
+}
 
 </style>
-
 
 
 <body>
@@ -112,22 +117,13 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 
   </nav>
 
 <div class = "sectionheading">
-Make A Test
+How to Use it
 </div>
 
-    <form class ="container" method = "post" action = "http://letsproctor.herokuapp.com/maketest" >
-        <div class = "form-group">
-            <input class = "form-control" name = "title" placeholder = "Title of Test for eg. Physics">
-        </div>
-        <div class = "form-group">
-            <input class = "form-control" name = "gformlink" placeholder = "Paste google form link here">
-        </div>
-        <div class = "form-group">
-            <input class = "form-control" name = "emailid" placeholder = "Please Enter your Email. Make sure its correct">
-        </div>
-        
-        <button class= "waves-effect waves-light btn blue-grey darken-4">Make Test</button>
-    </form>
+<div class="dashbox">
+<iframe src="https://docs.google.com/viewerng/viewer?url=https://raw.githubusercontent.com/TusharAMD/Online-Proctoring/master/Info.pdf&embedded=true" frameborder="0" height="500px" width="100%">
+</iframe>
+</div>
   
 </body>
 </html>

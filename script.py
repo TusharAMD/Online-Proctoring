@@ -13,6 +13,11 @@ import os
 def home():
    return render_template('home.html')
 
+@app.route('/info')
+def home():
+   return render_template('info.html')
+
+
 @app.route('/maketestform')
 def student():
    return render_template('index.html')
