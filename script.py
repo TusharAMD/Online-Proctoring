@@ -14,7 +14,7 @@ def home():
    return render_template('home.html')
 
 @app.route('/info')
-def home():
+def info():
    return render_template('info.html')
 
 
