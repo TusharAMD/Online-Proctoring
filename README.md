@@ -35,15 +35,15 @@ Use Windows OS (exe works on windows only)
 -   For Gaze detection I am using facemesh of mediapipe library and picking out both the eyes as ROI.
 -   After doing that I am checking 4 pixels at some distance
 -   If just one of the 4 pixels are black we can say that user has moved his eyes to one side and thus we can count it as violation ![](https://i.ibb.co/th4pb7r/image.png)
--   Then Next comes Face Detection. Again I am using mediapipe but a different solution which is face detect. Its pretty straight forward and in this we are getting points and calculating distances to check if head is tilted or not. Same solution is being used to detect whether face is present or not. Also if multiple faces are present ![](https://i.ibb.co/Ln9YXZG/image.png) 
--   
+-   Then Next comes Face Detection. Again I am using mediapipe but a different solution which is face detect. Its pretty straight forward and in this we are getting points and calculating distances to check if head is tilted or not. Same solution is being used to detect whether face is present or not. Also if multiple faces are present ![](https://i.ibb.co/Ln9YXZG/image.png)
+-   Tab Change Detection is done by leveraging selenium feature that is we can execute scripts into the console by doing driver.execute_script. So doing that I am able to run a javascript code that detects if the tab is visible or not. At start I have already declared a variable i and it is increased on tab change.
+-   For Application Change I have Created a QRCode and it is created using the entries made by the user in the web app and its matched with entries made in proctor utility. Using pyautogui I take screenshot at regular intervals and if QR Code is seen nowhere in the screen Application Change is triggered.
+-   Browser size is similar to tab change where I am running a javascript code in console.
 
 ## Output
 
-Check Out this Youtube Video for Demo https://www.youtube.com/watch?v=PjGLWq3LrhM&ab_channel=TusharAmdoskar
 ![](https://github.com/TusharAMD/Awesome_Python_Scripts/blob/issue254/GUIScripts/Face%20Lock%20OpenCV/Images/ImagesForReadme/Img1.png)
-![](https://github.com/TusharAMD/Awesome_Python_Scripts/blob/issue254/GUIScripts/Face%20Lock%20OpenCV/Images/ImagesForReadme/Img2.png)
-![](https://github.com/TusharAMD/Awesome_Python_Scripts/blob/issue254/GUIScripts/Face%20Lock%20OpenCV/Images/ImagesForReadme/Img3.png)
+
 
 ## Author(s)
 
