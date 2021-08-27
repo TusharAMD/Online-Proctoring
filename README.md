@@ -42,7 +42,12 @@ Use Windows OS (exe works on windows only)
 
 ## Output
 
-![](https://github.com/TusharAMD/Awesome_Python_Scripts/blob/issue254/GUIScripts/Face%20Lock%20OpenCV/Images/ImagesForReadme/Img1.png)
+![](https://i.ibb.co/4RXkxqF/image.png)
+![](https://i.ibb.co/D7XyGtP/image.png)
+![](https://i.ibb.co/SVqDfK4/image.png)
+![](https://i.ibb.co/jr5mj6F/image.png)
+
+## What I learned from this project?
 
 
 ## Author(s)
